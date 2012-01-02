@@ -52,6 +52,9 @@ public class MARSUR implements EntryPoint {
 		RootPanel.get("nameFieldContainer").add(nameField);
 		RootPanel.get("sendButtonContainer").add(sendButton);
 		RootPanel.get("errorLabelContainer").add(errorLabel);
+		
+		// some change
+		System.out.println("Some change to test EGIT commit");
 
 		// Focus the cursor on the name field when the app loads
 		nameField.setFocus(true);
